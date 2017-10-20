@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+
+}
+
+.nav-bar {
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: fixed;
+
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.logo-text {
+  margin-left: 20px;
+
+}
+
+
+.nav-mid {
+display: flex;
+justify-content: space-around;
+width: 40%;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#book:hover, #workshops:hover, #podcasts:hover {
+  opacity: 0.6;
+
+}
+
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  background-color: transparent;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: solid white;
+
+}
+
+.btn:hover {
+  background: #fff;
+  text-decoration: none;
+  color: blue;
+}
+
+.main-container {
+  background-image: url('images/blue.png');
+  height: 100vh;
+  width: 100%;
+  top: 100px;
+  position: relative;
+  display: flex;
+}
+
+.landing-text {
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 35px;
+}
+
+.main-container h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.main-container p {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.button2 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #0C24C5;
+  font-size: 20px;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: solid white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 13px;
+  padding: 15px;
+
+}
+
+.button2:hover{
+  background-color: transparent;
+  color: white;
+}
+
+.fa {
+  color: white;
+  height: 50px;
+  width: 50px;
+  border: solid 1px;
+  border-color: white;
+  border-radius: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 11px;
+  right: 6px;
+
+}
+
+.fa-twitter:hover, .fa-facebook:hover, .fa-linkedin:hover, .fa-link:hover {
+  color: blue;
+  background: #fff;
+
+}
